@@ -1,0 +1,399 @@
+
+        *{
+            box-sizing: border-box;
+        }
+        html{
+            background-color:rgb(201, 226, 242);
+        }
+        h2{
+            text-align: center;
+            font-size: 30px;
+        }
+        .img-1,.img-2,.img-3,.img-4,.img-5,.img-6,.img-7,.img-8,.img-9,.img-10,.img-11,.img-12,.img-13,.img-14,.img-15,.img-16,.img-17,.img-18,.img-19,.img-20,.img-21,.img-22,.img-23,.img-24{
+            width: 100%;
+            height: 270px;
+            transition: 0.1s;
+        }
+        .img-1:hover{
+            content: url("../介紹照/成員生活照/1h.jpg");
+        }
+        .img-2:hover{
+            content: url("../介紹照/成員生活照/2h.jpg");
+        }
+        .img-3:hover{
+            content: url("../介紹照/成員生活照/3h.jpg");
+        }
+        .img-4:hover{
+            content: url("../介紹照/成員生活照/4h.jpg");
+        }
+        .img-5:hover{
+            content: url("../介紹照/成員生活照/5h.jpg");
+        }
+        .img-6:hover{
+            content: url("../介紹照/成員生活照/6h.jpg");
+        }
+        .img-7:hover{
+            content: url("../介紹照/成員生活照/7h.jpg");
+        }
+        .img-8:hover{
+            content: url("../介紹照/成員生活照/8h.jpg");
+        }
+        .img-9:hover{
+            content: url("../介紹照/成員生活照/9h.jpg");
+        }
+        .img-10:hover{
+            content: url("../介紹照/成員生活照/10h.jpg");
+        }
+        .img-11:hover{
+            content: url("../介紹照/成員生活照/11h.jpg");
+        }
+        .img-12:hover{
+            content: url("../介紹照/成員生活照/12h.jpg");
+        }
+        .img-13:hover{
+            content: url("../介紹照/成員生活照/13h.jpg");
+        }
+        .img-14:hover{
+            content: url("../介紹照/成員生活照/14h.jpg");
+        }
+        .img-15:hover{
+            content: url("../介紹照/成員生活照/15h.jpg");
+        }
+        .img-16:hover{
+            content: url("../介紹照/成員生活照/16h.jpg");
+        }
+        .img-17:hover{
+            content: url("../介紹照/成員生活照/17h.jpg");
+        }
+        .img-18:hover{
+            content: url("../介紹照/成員生活照/18h.jpg");
+        }
+        .img-19:hover{
+            content: url("../介紹照/成員生活照/19h.jpg");
+        }
+        .img-20:hover{
+            content: url("../介紹照/成員生活照/20h.jpg");
+        }
+        .img-21:hover{
+            content: url("../介紹照/成員生活照/21h.jpg");
+        }
+        .img-22:hover{
+            content: url("../介紹照/成員生活照/22h.jpg");
+        }
+        .img-23:hover{
+            content: url("../介紹照/成員生活照/23h.jpg");
+        }
+        .img-24:hover{
+            content: url("../介紹照/成員生活照/24h.jpg");
+        }
+        .card{
+            width: 200px;
+            overflow:hidden;
+            border-radius: 15px;
+            background-color: white;
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 15px 4px;
+            text-align: center;
+        }
+        .card-title{
+            font-size: 25px;
+            margin: 4px 0;
+            text-align: center;
+        }
+        .card-intro{
+            font-size: 15px;
+            text-align: center;
+            margin: 5px;
+        }
+        .button1{
+            background-color: #22AEFF;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button2{
+            background-color: #9F00FF;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button3{
+            background-color: #FFF924;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button4{
+            background-color: #9DBF41;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button5{
+            background-color: #EB0077;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button6{
+            background-color: #FC83A4;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button7{
+            background-color: #669BA1;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button8{
+            background-color: #FFE1E0;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button9{
+            background-color: #FFC400;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button10{
+            background-color: #FF9AD6;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button11{
+            background-color: #FFDA00;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button12{
+            background-color: #336AE8;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button13{
+            background-color: #FF8D00;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button14{
+            background-color: #000085;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button15{
+            background-color: #E80000;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button16{
+            background-color: #FE8E76;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button17{
+            background-color: #B75DBB;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button18{
+            background-color: #B8F54D;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button19{
+            background-color: #52D9BA;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button20{
+            background-color: #FF428A;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button21{
+            background-color: #C7A3E0;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button22{
+            background-color: #7ABA8C;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button23{
+            background-color: #CFF2FF;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        .button24{
+            background-color: #FFA551;
+            border-radius: 50PX;
+            border: 0px;
+            width: 120px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            margin: 5px;
+        }
+        section{
+        display:flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+        .intro-section{
+        display: flex;
+        align-items: center;      
+        justify-content: center;   
+        gap: 80px;                
+        padding: 75px 10px 25px 10px;                 
+        margin: 0 auto;
+        }
+        .intro-image img{
+        width: 100%;
+        max-width: 500px; 
+        border-radius: 15px;
+        box-shadow: 0 3px 10px color(srgb 0 0 0);
+        }
+        .intro-text{
+            flex: 1;
+            text-align: center;
+            max-width: 500px;
+        }
+        .intro-text p{
+            text-align:center;
+        }
